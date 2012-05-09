@@ -22,6 +22,11 @@ Installs all required packages. See [~/attributes/default.rb](/vim-janus/attribu
 
 Put `recipe[vim-janus]` in a run list.
 
+## Contributors
+
+* **[@nclark](https://github.com/nclark)**
+  * Updated bootstrap link.
+
 # License and Author
 
 Author:: Paul Welch <pwelch2004@gmail.com>
