@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/pwelch/chef-janus.png)](http://travis-ci.org/pwelch/chef-janus)
+
 # DESCRIPTION
 
 Installs [Janus](https://github.com/carlhuda/janus) from github using the bootstrap method. Currently only for Ubuntu console.
