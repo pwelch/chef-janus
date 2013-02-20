@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/pwelch/chef-janus.png)](http://travis-ci.org/pwelch/chef-janus)
+[![Build Status](https://travis-ci.org/pwelch/chef-janus.png)](https://travis-ci.org/pwelch/chef-janus)
 
 # DESCRIPTION
 
