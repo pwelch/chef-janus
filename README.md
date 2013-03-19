@@ -39,6 +39,6 @@ The following platforms have been test with this cookbook:
 
 ## Contributors
 
-* **[@nclark](https://github.com/nclark)**
-* Updated bootstrap link.
+* **[@nclark](https://github.com/nclark)**     - Updated bootstrap link.
+* **[@akalyaev](https://github.com/akalyaev)** - Added missing package.
 
