@@ -41,4 +41,4 @@ The following platforms have been test with this cookbook:
 
 * **[@nclark](https://github.com/nclark)**     - Updated bootstrap link.
 * **[@akalyaev](https://github.com/akalyaev)** - Added missing package.
-
+* **[@patcon](https://github.com/patcon)** - Add missing gem_package.
