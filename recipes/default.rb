@@ -10,6 +10,8 @@ end
 users    = node['janus']['users']
 home_dir = node['janus']['home_dir']
 
+gem_package "rake"
+
 # Execute the Janus bootstrap installation from github.
 users.each do |user_name|
   execute "curl -Lo- http://bit.ly/janus-bootstrap | bash" do
