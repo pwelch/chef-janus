@@ -6,15 +6,11 @@ Installs [Janus](https://github.com/carlhuda/janus) from github using the bootst
 
 # REQUIREMENTS
 
-## Chef
-
-Tested on 10.16
-
 ## Platform
 
 The following platforms have been test with this cookbook:
 
-* ubuntu (10.04/10.10/11.04) 
+* ubuntu (10.04/12.04) 
 
 ## Attributes
 
@@ -22,20 +18,30 @@ The following platforms have been test with this cookbook:
 - `default['janus']['users']`    - list of users
 - `default['janus']['home_dir']` - home directory location
 
+## Development
+
+Development with VM requires [Vagrant](http://vagrantup.com) and [VirtualBox](https://www.virtualbox.org/).
+
+Current versions used in development:
+
+* Vagrant v1.5.3
+* Vagrant-Berkshelf Plugin v2.0.1
+* Vagrant-Omnibus v1.4.1 
+
+## Testing
+
+To run Spec tests:
+```bash
+bundle exec rpsec spec
+```
+
 ## Contributing
 
-1. Fork it
+1. Fork it from the [GitHub Repo](https://github.com/pwelch/chef-janus)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
-## To Do
-
-* Ensure support on other platforms (MacOSX/RHEL).
-* Change recipe to install Janus as a Chef Definition or LWRP resource.
-* Change installation to skip installing ruby packages if Ruby already
-  installed.
 
 ## Contributors
 
