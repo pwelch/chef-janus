@@ -1,0 +1,7 @@
+DEPENDENCIES
+  janus
+    path: .
+    metadata: true
+
+GRAPH
+  janus (1.0.0)

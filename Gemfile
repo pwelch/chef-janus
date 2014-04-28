@@ -1,10 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
-group :development do
-  gem 'chef'
-  gem 'rake'
-end
-
-group :test do
-  gem 'vagrant', "~> 1.0.5"
-end
+gem 'berkshelf' 
+gem 'chefspec', '~> 3.1'
